@@ -4,7 +4,7 @@ import { TaskCardDeleteButton } from "./button/TaskCardDeleteButton";
 import { TaskAddInput } from "./input/TaskAddInput";
 import { Tasks } from "./Tasks";
 
-export const TaskCard = (taskCardsList, setTaskCardsList, taskCard) => {
+export const TaskCard = ({ taskCardsList, setTaskCardsList, taskCard }) => {
   const [inputText, setInputText] = useState("");
   const [taskList, setTaskList] = useState([]);
   return (
